@@ -5,6 +5,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import 'boxicons/css/boxicons.min.css';
 import SmoothScrolling from './components/SmoothScrolling';
+import { ThemeProvider } from './components/ThemeProvider';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -106,9 +107,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Analytics />
-        <SmoothScrolling />
-        {children}
+        <ThemeProvider>
+          <Analytics />
+          <SmoothScrolling />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -12,8 +12,8 @@ export default function Hero() {
         </div>
         <div className="col-span-10">
           <p id='desc' className="text-sm md:text-base font-medium text-white/50">
-            I&apos;m <strong>Miftakhul Rizky</strong>, a passionate UI/UX Designer and Icon Designer based in Bandung City. 
-            As the founder and CEO of <strong>Termicons</strong>, I create intuitive digital experiences and beautiful iconography 
+            I&apos;m <strong>Miftakhul Rizky</strong>, a passionate UI/UX Designer and Icon Designer based in Bandung City.
+            As the founder and CEO of <strong>Termicons</strong>, I create intuitive digital experiences and beautiful iconography
             that bridges functionality with aesthetics. Contact me at m.miftakhul.rizky4@gmail.com for collaborations.
           </p>
         </div>

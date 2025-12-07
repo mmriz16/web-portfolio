@@ -1,9 +1,9 @@
-import Hero from '@/app/pages/home/hero';
-import Photos from '@/app/pages/home/photos';
-import Project from '@/app/pages/home/project';
-import Articles from '@/app/pages/home/articles';
-import Update from '@/app/pages/home/update';
-import Work from '@/app/pages/home/work';
+import Hero from '@/app/(pages)/home/hero';
+import Photos from '@/app/(pages)/home/photos';
+import Project from '@/app/(pages)/home/project';
+import Articles from '@/app/(pages)/home/articles';
+import Update from '@/app/(pages)/home/update';
+import Work from '@/app/(pages)/home/work';
 import Footer from '@/app/components/footer';
 import Navbar from '@/app/components/navbar';
 
